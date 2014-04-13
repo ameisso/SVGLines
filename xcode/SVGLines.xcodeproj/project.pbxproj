@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 44;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,16 +12,18 @@
 		00B784B40FF439BC000DE1D7 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784B00FF439BC000DE1D7 /* AudioToolbox.framework */; };
 		00B784B50FF439BC000DE1D7 /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784B10FF439BC000DE1D7 /* AudioUnit.framework */; };
 		00B784B60FF439BC000DE1D7 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784B20FF439BC000DE1D7 /* CoreAudio.framework */; };
-		237895ECE2CE40DFBD4B82DE /* CinderApp.icns in Resources */ = {isa = PBXBuildFile; fileRef = 301D44B0E7D1475D828CBF1D /* CinderApp.icns */; };
-		2C6EEB203A164BCBBDC30A95 /* SVGLinesApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00EFD1CC8A0A4E87A21D8B16 /* SVGLinesApp.cpp */; };
-		4E9F1E6FF81D477CA7E7BBCD /* SVGLinesDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = EE7C9A91ED4D4EE5B2315DAE /* SVGLinesDelegate.mm */; };
 		5323E6B20EAFCA74003A9687 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5323E6B10EAFCA74003A9687 /* CoreVideo.framework */; };
 		5323E6B60EAFCA7E003A9687 /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5323E6B50EAFCA7E003A9687 /* QTKit.framework */; };
-		71AECA1118FB1F3200BDF101 /* Surface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 71AECA0F18FB1F3200BDF101 /* Surface.cpp */; };
-		71B3094218F9906700201C8E /* DragablePoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 71B3094018F9906700201C8E /* DragablePoint.cpp */; };
-		7F3F7DA6C10949F4976A5F54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4E3AD66AE1476C8858343D /* main.m */; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 		C3059FA800D64A80A31418EA /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12ABFDC376B9496F88AD8AD0 /* MainMenu.xib */; };
+		237895ECE2CE40DFBD4B82DE /* CinderApp.icns in Resources */ = {isa = PBXBuildFile; fileRef = 301D44B0E7D1475D828CBF1D /* CinderApp.icns */; };
+		1BCCD34324EC4C90816E3A0E /* SVGLines_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 05C16BB896714A4892D37C54 /* SVGLines_Prefix.pch */; };
+		ED3253C8A1724B759B979B48 /* Resources.h in Headers */ = {isa = PBXBuildFile; fileRef = 126E814097FA46479CFA7520 /* Resources.h */; };
+		6EB3F487C99647CF8ED886DB /* SVGLinesDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D565B71A15947EF963B004F /* SVGLinesDelegate.h */; };
+		A3B016855C32428595DBA759 /* SVGLinesApp.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DDF60D5040B4A16B9192B83 /* SVGLinesApp.h */; };
+		7F3F7DA6C10949F4976A5F54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4E3AD66AE1476C8858343D /* main.m */; };
+		4E9F1E6FF81D477CA7E7BBCD /* SVGLinesDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = EE7C9A91ED4D4EE5B2315DAE /* SVGLinesDelegate.mm */; };
+		2C6EEB203A164BCBBDC30A95 /* SVGLinesApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00EFD1CC8A0A4E87A21D8B16 /* SVGLinesApp.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,26 +32,22 @@
 		00B784B00FF439BC000DE1D7 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		00B784B10FF439BC000DE1D7 /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
 		00B784B20FF439BC000DE1D7 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
-		00EFD1CC8A0A4E87A21D8B16 /* SVGLinesApp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; name = SVGLinesApp.cpp; path = ../src/SVGLinesApp.cpp; sourceTree = "<group>"; };
-		05C16BB896714A4892D37C54 /* SVGLines_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = "\"\""; path = SVGLines_Prefix.pch; sourceTree = "<group>"; };
 		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
-		126E814097FA46479CFA7520 /* Resources.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Resources.h; path = ../include/Resources.h; sourceTree = "<group>"; };
-		12ABFDC376B9496F88AD8AD0 /* MainMenu.xib */ = {isa = PBXFileReference; lastKnownFileType = "\"\""; name = MainMenu.xib; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
-		301D44B0E7D1475D828CBF1D /* CinderApp.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = CinderApp.icns; path = ../resources/CinderApp.icns; sourceTree = "<group>"; };
-		3D565B71A15947EF963B004F /* SVGLinesDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SVGLinesDelegate.h; path = ../include/SVGLinesDelegate.h; sourceTree = "<group>"; };
 		5323E6B10EAFCA74003A9687 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = /System/Library/Frameworks/CoreVideo.framework; sourceTree = "<absolute>"; };
 		5323E6B50EAFCA7E003A9687 /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = /System/Library/Frameworks/QTKit.framework; sourceTree = "<absolute>"; };
-		71AECA0F18FB1F3200BDF101 /* Surface.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Surface.cpp; sourceTree = "<group>"; };
-		71AECA1018FB1F3200BDF101 /* Surface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Surface.h; sourceTree = "<group>"; };
-		71B3094018F9906700201C8E /* DragablePoint.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DragablePoint.cpp; sourceTree = "<group>"; };
-		71B3094118F9906700201C8E /* DragablePoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DragablePoint.h; sourceTree = "<group>"; };
-		7DDF60D5040B4A16B9192B83 /* SVGLinesApp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SVGLinesApp.h; path = ../include/SVGLinesApp.h; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* SVGLines.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SVGLines.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C31C4F66F8F54B5580AD97E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DE4E3AD66AE1476C8858343D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = "\"\""; name = main.m; path = ../src/main.m; sourceTree = "<group>"; };
-		EE7C9A91ED4D4EE5B2315DAE /* SVGLinesDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = SVGLinesDelegate.mm; path = ../src/SVGLinesDelegate.mm; sourceTree = "<group>"; };
+		00EFD1CC8A0A4E87A21D8B16 /* SVGLinesApp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; path = ../src/SVGLinesApp.cpp; sourceTree = "<group>"; name = SVGLinesApp.cpp; };
+		EE7C9A91ED4D4EE5B2315DAE /* SVGLinesDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ../src/SVGLinesDelegate.mm; sourceTree = "<group>"; name = SVGLinesDelegate.mm; };
+		DE4E3AD66AE1476C8858343D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = "\"\""; path = ../src/main.m; sourceTree = "<group>"; name = main.m; };
+		7DDF60D5040B4A16B9192B83 /* SVGLinesApp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ../include/SVGLinesApp.h; sourceTree = "<group>"; name = SVGLinesApp.h; };
+		3D565B71A15947EF963B004F /* SVGLinesDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ../include/SVGLinesDelegate.h; sourceTree = "<group>"; name = SVGLinesDelegate.h; };
+		126E814097FA46479CFA7520 /* Resources.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ../include/Resources.h; sourceTree = "<group>"; name = Resources.h; };
+		05C16BB896714A4892D37C54 /* SVGLines_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = "\"\""; path = SVGLines_Prefix.pch; sourceTree = "<group>"; name = SVGLines_Prefix.pch; };
+		301D44B0E7D1475D828CBF1D /* CinderApp.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = ../resources/CinderApp.icns; sourceTree = "<group>"; name = CinderApp.icns; };
+		12ABFDC376B9496F88AD8AD0 /* MainMenu.xib */ = {isa = PBXFileReference; lastKnownFileType = "\"\""; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; name = MainMenu.xib; };
+		C31C4F66F8F54B5580AD97E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; name = Info.plist; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,19 +69,10 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		01B97315FEAEA392516A2CEA /* Blocks */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Blocks;
-			sourceTree = "<group>";
-		};
 		080E96DDFE201D6D7F000001 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				71AECA0F18FB1F3200BDF101 /* Surface.cpp */,
 				00EFD1CC8A0A4E87A21D8B16 /* SVGLinesApp.cpp */,
-				71B3094018F9906700201C8E /* DragablePoint.cpp */,
 				EE7C9A91ED4D4EE5B2315DAE /* SVGLinesDelegate.mm */,
 				DE4E3AD66AE1476C8858343D /* main.m */,
 			);
@@ -135,13 +124,18 @@
 			name = SVGLines;
 			sourceTree = "<group>";
 		};
+		01B97315FEAEA392516A2CEA /* Blocks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Blocks;
+			sourceTree = "<group>";
+		};
 		29B97315FDCFA39411CA2CEA /* Headers */ = {
 			isa = PBXGroup;
 			children = (
 				7DDF60D5040B4A16B9192B83 /* SVGLinesApp.h */,
-				71AECA1018FB1F3200BDF101 /* Surface.h */,
 				3D565B71A15947EF963B004F /* SVGLinesDelegate.h */,
-				71B3094118F9906700201C8E /* DragablePoint.h */,
 				126E814097FA46479CFA7520 /* Resources.h */,
 				05C16BB896714A4892D37C54 /* SVGLines_Prefix.pch */,
 			);
@@ -193,8 +187,6 @@
 /* Begin PBXProject section */
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
-			attributes = {
-			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "SVGLines" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
@@ -233,8 +225,6 @@
 			files = (
 				2C6EEB203A164BCBBDC30A95 /* SVGLinesApp.cpp in Sources */,
 				4E9F1E6FF81D477CA7E7BBCD /* SVGLinesDelegate.mm in Sources */,
-				71B3094218F9906700201C8E /* DragablePoint.cpp in Sources */,
-				71AECA1118FB1F3200BDF101 /* Surface.cpp in Sources */,
 				7F3F7DA6C10949F4976A5F54 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -246,24 +236,24 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				COPY_PHASE_STRIP = NO;
 				DEAD_CODE_STRIPPING = YES;
+				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = SVGLines_Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SVGLines_Prefix.pch;
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
 				OTHER_LDFLAGS = "\"$(CINDER_PATH)/lib/libcinder_d.a\"";
 				PRODUCT_NAME = SVGLines;
-				SYMROOT = ./build;
 				WRAPPER_EXTENSION = app;
+				SYMROOT = ./build;
 			};
 			name = Debug;
 		};
@@ -285,19 +275,19 @@
 				OTHER_LDFLAGS = "\"$(CINDER_PATH)/lib/libcinder.a\"";
 				PRODUCT_NAME = SVGLines;
 				STRIP_INSTALLED_PRODUCT = YES;
-				SYMROOT = ./build;
 				WRAPPER_EXTENSION = app;
+				SYMROOT = ./build;
 			};
 			name = Release;
 		};
 		C01FCF4F08A954540054247B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = i386;
-				CINDER_PATH = ../../..;
 				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				CLANG_CXX_LIBRARY = "libc++";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = i386;
+				CINDER_PATH = "../../..";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "\"$(CINDER_PATH)/boost\"";
@@ -310,11 +300,11 @@
 		C01FCF5008A954540054247B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = i386;
-				CINDER_PATH = ../../..;
 				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				CLANG_CXX_LIBRARY = "libc++";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = i386;
+				CINDER_PATH = "../../..";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "\"$(CINDER_PATH)/boost\"";

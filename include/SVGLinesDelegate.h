@@ -16,6 +16,5 @@
 
 - (IBAction)subdivisionSliderChanged:(id)sender;
 - (IBAction)colorChanged:(id)sender;
-- (IBAction)crossCursorCheckBox:(id)sender;
 
 @end
