@@ -30,7 +30,6 @@ DragablePoint::DragablePoint(cinder::Vec2i pos)
     y=pos.y;
     bOver=false;
     bBeingDragged=false;
-
     radius=4;
 }
 int DragablePoint::posX()

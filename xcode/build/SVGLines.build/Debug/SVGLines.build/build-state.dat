@@ -5,13 +5,13 @@ cCheck dependencies
 cProcessInfoPlistFile /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/Debug/SVGLines.app/Contents/Info.plist /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/Info.plist
 cCpResource /Users/antoine/projects/Cinder/myApps/SVGLines/resources/CinderApp.icns build/Debug/SVGLines.app/Contents/Resources/CinderApp.icns
 cCompileXIB /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/en.lproj/MainMenu.xib
-cProcessPCH++ /var/folders/rt/08c21d8d3ml16cbt87_cfmj80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/SVGLines_Prefix-ctjjrmmkxfjiahdgjbbfawgtmvly/SVGLines_Prefix.pch.pch SVGLines_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cProcessPCH++ /var/folders/rt/08c21d8d3ml16cbt87_cfmj80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/SVGLines_Prefix-fkntljneoxhfkyamgdqqjqaekrri/SVGLines_Prefix.pch.pch SVGLines_Prefix.pch normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
-cProcessPCH /var/folders/rt/08c21d8d3ml16cbt87_cfmj80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/SVGLines_Prefix-cocjxrhpnwctgsgxqjxfyxpdvoth/SVGLines_Prefix.pch.pch SVGLines_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH++ /var/folders/rt/08c21d8d3ml16cbt87_cfmj80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/SVGLines_Prefix-cmkbrgewejgkhocdwaxsrmbwffrs/SVGLines_Prefix.pch.pch SVGLines_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH++ /var/folders/rt/08c21d8d3ml16cbt87_cfmj80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/SVGLines_Prefix-avlaeqwaztqcoibimwklalmosptt/SVGLines_Prefix.pch.pch SVGLines_Prefix.pch normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH /var/folders/rt/08c21d8d3ml16cbt87_cfmj80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/SVGLines_Prefix-bstrlsgfrmupxhdbjztzpvaomqhc/SVGLines_Prefix.pch.pch SVGLines_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/SVGLines.build/Debug/SVGLines.build/Objects-normal/i386/SVGLinesApp.o /Users/antoine/projects/Cinder/myApps/SVGLines/src/SVGLinesApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/SVGLines.build/Debug/SVGLines.build/Objects-normal/i386/SVGLinesDelegate.o /Users/antoine/projects/Cinder/myApps/SVGLines/src/SVGLinesDelegate.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/SVGLines.build/Debug/SVGLines.build/Objects-normal/i386/DragablePoint.o /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/DragablePoint.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/SVGLines.build/Debug/SVGLines.build/Objects-normal/i386/Surface.o /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/Surface.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SVGLines.build/Debug/SVGLines.build/Objects-normal/i386/SVGSurface.o /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/SVGSurface.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/SVGLines.build/Debug/SVGLines.build/Objects-normal/i386/main.o /Users/antoine/projects/Cinder/myApps/SVGLines/src/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cLd /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/Debug/SVGLines.app/Contents/MacOS/SVGLines normal i386
 cTouch /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/Debug/SVGLines.app
@@ -230,11 +230,6 @@ N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/
 c0000000053496FE5000000000007D88C
 t1397321701
 s514188
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/crt1.10.6.o
-c0000000053496FE800000000000022C4
-t1397321704
-s8900
 
 N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libSystem.dylib
 c0000000053496FE8000000000000681C
@@ -4407,9 +4402,9 @@ t1366822714
 s24689392
 
 N/Users/antoine/projects/Cinder/myApps/SVGLines/include/SVGLinesApp.h
-c00000000534A6BC40000000000000614
-t1397386180
-s1556
+c00000000534AF59F00000000000005FA
+t1397421471
+s1530
 
 N/Users/antoine/projects/Cinder/myApps/SVGLines/include/SVGLinesDelegate.h
 c00000000534A6BC400000000000001CA
@@ -4422,9 +4417,9 @@ t1397386180
 s369000
 
 N/Users/antoine/projects/Cinder/myApps/SVGLines/src/SVGLinesApp.cpp
-c00000000534A6BC40000000000001950
-t1397386180
-s6480
+c00000000534C562B0000000000001556
+t1397511723
+s5462
 
 N/Users/antoine/projects/Cinder/myApps/SVGLines/src/SVGLinesDelegate.mm
 c00000000534A6BC4000000000000056C
@@ -4437,9 +4432,9 @@ t1397386180
 s116
 
 N/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/DragablePoint.cpp
-c00000000534A6BC4000000000000048C
-t1397386180
-s1164
+c00000000534C536E000000000000048B
+t1397511022
+s1163
 
 N/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/DragablePoint.h
 c00000000534A6BC400000000000003A6
@@ -4456,63 +4451,63 @@ c00000000534A6BC4000000000000008E
 t1397386180
 s142
 
-N/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/Surface.cpp
-c00000000534A6BC40000000000000069
-t1397386180
-s105
+N/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/SVGSurface.cpp
+c00000000534C575C0000000000000D8C
+t1397512028
+s3468
 
-N/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/Surface.h
-c00000000534A6BC40000000000000119
-t1397386180
-s281
+N/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/SVGSurface.h
+c00000000534C54320000000000000312
+t1397511218
+s786
 
 N/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/Debug/SVGLines.app
-t1397420027
+t1397511727
 s102
 
 N/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/Debug/SVGLines.app/Contents/Info.plist
-t1397420022
+t1397510822
 s1484
 
 N/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/Debug/SVGLines.app/Contents/MacOS/SVGLines
-t1397420027
-s2828940
+t1397512031
+s2713080
 
 N/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/Debug/SVGLines.app/Contents/PkgInfo
-t1397420022
+t1397510822
 s8
 
 N/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/Debug/SVGLines.app/Contents/Resources/CinderApp.icns
-t1397420022
+t1397510822
 s369000
 
 N/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/Debug/SVGLines.app/Contents/Resources/MainMenu.nib
-t1397420022
+t1397510823
 s31307
 
 N/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/Objects-normal/i386/DragablePoint.o
-t1397420025
+t1397511024
 s81152
 
 N/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/Objects-normal/i386/SVGLines.LinkFileList
-c00000000534AEFF60000000000000281
-t1397420022
-s641
+c00000000534C52A60000000000000284
+t1397510822
+s644
 
 N/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/Objects-normal/i386/SVGLinesApp.o
-t1397420026
-s1897840
+t1397511726
+s1916960
 
 N/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/Objects-normal/i386/SVGLinesDelegate.o
-t1397420025
-s1792736
+t1397511221
+s1812112
 
-N/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/Objects-normal/i386/Surface.o
-t1397420025
-s67752
+N/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/Objects-normal/i386/SVGSurface.o
+t1397512031
+s246664
 
 N/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/Objects-normal/i386/main.o
-t1397420022
+t1397510824
 s2452
 
 N/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/en.lproj/MainMenu.xib
@@ -4520,17 +4515,17 @@ c00000000534A6BC4000000000000CBDD
 t1397386180
 s52189
 
-N/var/folders/rt/08c21d8d3ml16cbt87_cfmj80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/SVGLines_Prefix-cocjxrhpnwctgsgxqjxfyxpdvoth/SVGLines_Prefix.pch.pch
-t1397420022
-s14304552
+N/var/folders/rt/08c21d8d3ml16cbt87_cfmj80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/SVGLines_Prefix-avlaeqwaztqcoibimwklalmosptt/SVGLines_Prefix.pch.pch
+t1397510824
+s17545344
 
-N/var/folders/rt/08c21d8d3ml16cbt87_cfmj80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/SVGLines_Prefix-ctjjrmmkxfjiahdgjbbfawgtmvly/SVGLines_Prefix.pch.pch
-t1397420022
+N/var/folders/rt/08c21d8d3ml16cbt87_cfmj80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/SVGLines_Prefix-bstrlsgfrmupxhdbjztzpvaomqhc/SVGLines_Prefix.pch.pch
+t1397510824
+s14305852
+
+N/var/folders/rt/08c21d8d3ml16cbt87_cfmj80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/SVGLines_Prefix-cmkbrgewejgkhocdwaxsrmbwffrs/SVGLines_Prefix.pch.pch
+t1397510823
 s121804
-
-N/var/folders/rt/08c21d8d3ml16cbt87_cfmj80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/SVGLines_Prefix-fkntljneoxhfkyamgdqqjqaekrri/SVGLines_Prefix.pch.pch
-t1397420022
-s17543996
 
 CBuild AST from /Users/antoine/projects/Cinder/myApps/SVGLines/src/SVGLinesApp.cpp
 r0
@@ -4544,16 +4539,16 @@ r0
 CBuild AST from /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/DragablePoint.cpp
 r0
 
-CBuild AST from /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/Surface.cpp
+CBuild AST from /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/SVGSurface.cpp
 r0
 
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesf240bc7d27fbb841^df8abc7d27fbb841^---0#1#1#--18"Check dependencies36"09CF0A1B-6B05-45AE-BEFF-1E2825BCCAE1-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies6341d1dc8efcb841^965bd2dc8efcb841^---0#1#1#--18"Check dependencies36"CEAF85A6-6AF7-4D16-8C9B-4842FB027525-
 
 CCompileC build/SVGLines.build/Debug/SVGLines.build/Objects-normal/i386/DragablePoint.o /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/DragablePoint.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s419112822.943214
-e419112825.881973
+s419203822.408906
+e419203824.647993
 r1
 xCompileC
 xbuild/SVGLines.build/Debug/SVGLines.build/Objects-normal/i386/DragablePoint.o
@@ -5356,12 +5351,12 @@ d/Users/antoine/projects/Cinder/include/cinder/Thread.h
 d/Users/antoine/projects/Cinder/include/cinder/cocoa/CinderCocoa.h
 d/Users/antoine/projects/Cinder/include/cinder/ImageIo.h
 d/Users/antoine/projects/Cinder/include/cinder/DataTarget.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Compile /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/DragablePoint.cpp164"CompileC build/SVGLines.build/Debug/SVGLines.build/Objects-normal/i386/DragablePoint.o DragablePoint.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler9b91f17627fbb841^3acae17927fbb841^---0#0#1#-19%DVTDocumentLocation2@77"file:///Users/antoine/projects/Cinder/myApps/SVGLines/xcode/DragablePoint.cpp0000000000000000^2982"CompileC build/SVGLines.build/Debug/SVGLines.build/Objects-normal/i386/DragablePoint.o DragablePoint.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/antoine/projects/Cinder/myApps/SVGLines/xcode    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/SVGLines-generated-files.hmap -I/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/SVGLines-own-target-headers.hmap -I/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/SVGLines-all-target-headers.hmap -iquote /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/SVGLines-project-headers.hmap -iquote../../../include -iquote../include -I/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/Debug/include -I../../../boost -I/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/DerivedSources/i386 -I/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/DerivedSources -F/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/Debug -include /var/folders/rt/08c21d8d3ml16cbt87_cfmj80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/SVGLines_Prefix-ctjjrmmkxfjiahdgjbbfawgtmvly/SVGLines_Prefix.pch -MMD -MT dependencies -MF /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/Objects-normal/i386/DragablePoint.d --serialize-diagnostics /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/Objects-normal/i386/DragablePoint.dia -c /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/DragablePoint.cpp -o /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/Objects-normal/i386/DragablePoint.o36"B9881244-E558-418B-AAEC-2D5AC1EB571A-
-b6B22664C-9614-4BDC-8D79-68573E07BC67
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Compile /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/DragablePoint.cpp164"CompileC build/SVGLines.build/Debug/SVGLines.build/Objects-normal/i386/DragablePoint.o DragablePoint.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compilerb6be68ee8afcb841^dae3a5f08afcb841^---0#0#1#-19%DVTDocumentLocation2@77"file:///Users/antoine/projects/Cinder/myApps/SVGLines/xcode/DragablePoint.cpp0000000000000000^2982"CompileC build/SVGLines.build/Debug/SVGLines.build/Objects-normal/i386/DragablePoint.o DragablePoint.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/antoine/projects/Cinder/myApps/SVGLines/xcode    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/SVGLines-generated-files.hmap -I/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/SVGLines-own-target-headers.hmap -I/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/SVGLines-all-target-headers.hmap -iquote /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/SVGLines-project-headers.hmap -iquote../../../include -iquote../include -I/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/Debug/include -I../../../boost -I/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/DerivedSources/i386 -I/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/DerivedSources -F/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/Debug -include /var/folders/rt/08c21d8d3ml16cbt87_cfmj80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/SVGLines_Prefix-cmkbrgewejgkhocdwaxsrmbwffrs/SVGLines_Prefix.pch -MMD -MT dependencies -MF /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/Objects-normal/i386/DragablePoint.d --serialize-diagnostics /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/Objects-normal/i386/DragablePoint.dia -c /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/DragablePoint.cpp -o /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/Objects-normal/i386/DragablePoint.o36"4AA10C74-530D-478E-BE36-C6B2B3018F7A-
+b9C1822A6-1C15-4E4E-92D1-5132268BCE7C
 
 CCompileC build/SVGLines.build/Debug/SVGLines.build/Objects-normal/i386/SVGLinesApp.o /Users/antoine/projects/Cinder/myApps/SVGLines/src/SVGLinesApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s419112822.942805
-e419112826.397072
+s419204523.973937
+e419204526.676777
 r1
 xCompileC
 xbuild/SVGLines.build/Debug/SVGLines.build/Objects-normal/i386/SVGLinesApp.o
@@ -6165,13 +6160,14 @@ d/Users/antoine/projects/Cinder/include/cinder/ImageIo.h
 d/Users/antoine/projects/Cinder/include/cinder/DataTarget.h
 d/Users/antoine/projects/Cinder/include/cinder/app/AppCocoaView.h
 d/Users/antoine/projects/Cinder/include/cinder/app/AppNative.h
+d/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/SVGSurface.h
 d/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/DragablePoint.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compile /Users/antoine/projects/Cinder/myApps/SVGLines/src/SVGLinesApp.cpp211"CompileC build/SVGLines.build/Debug/SVGLines.build/Objects-normal/i386/SVGLinesApp.o /Users/antoine/projects/Cinder/myApps/SVGLines/src/SVGLinesApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler236bf17627fbb841^7ea7657a27fbb841^---0#0#1#-19%DVTDocumentLocation2@73"file:///Users/antoine/projects/Cinder/myApps/SVGLines/src/SVGLinesApp.cpp0000000000000000^3019"CompileC build/SVGLines.build/Debug/SVGLines.build/Objects-normal/i386/SVGLinesApp.o /Users/antoine/projects/Cinder/myApps/SVGLines/src/SVGLinesApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/antoine/projects/Cinder/myApps/SVGLines/xcode    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/SVGLines-generated-files.hmap -I/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/SVGLines-own-target-headers.hmap -I/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/SVGLines-all-target-headers.hmap -iquote /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/SVGLines-project-headers.hmap -iquote../../../include -iquote../include -I/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/Debug/include -I../../../boost -I/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/DerivedSources/i386 -I/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/DerivedSources -F/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/Debug -include /var/folders/rt/08c21d8d3ml16cbt87_cfmj80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/SVGLines_Prefix-ctjjrmmkxfjiahdgjbbfawgtmvly/SVGLines_Prefix.pch -MMD -MT dependencies -MF /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/Objects-normal/i386/SVGLinesApp.d --serialize-diagnostics /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/Objects-normal/i386/SVGLinesApp.dia -c /Users/antoine/projects/Cinder/myApps/SVGLines/src/SVGLinesApp.cpp -o /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/Objects-normal/i386/SVGLinesApp.o36"96E989C3-3E37-4CE5-8779-606F9B6B278E-
-b6B22664C-9614-4BDC-8D79-68573E07BC67
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compile /Users/antoine/projects/Cinder/myApps/SVGLines/src/SVGLinesApp.cpp211"CompileC build/SVGLines.build/Debug/SVGLines.build/Objects-normal/i386/SVGLinesApp.o /Users/antoine/projects/Cinder/myApps/SVGLines/src/SVGLinesApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compilerc570f9ab8dfcb841^7441adae8dfcb841^---0#0#1#-19%DVTDocumentLocation2@73"file:///Users/antoine/projects/Cinder/myApps/SVGLines/src/SVGLinesApp.cpp0000000000000000^3019"CompileC build/SVGLines.build/Debug/SVGLines.build/Objects-normal/i386/SVGLinesApp.o /Users/antoine/projects/Cinder/myApps/SVGLines/src/SVGLinesApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/antoine/projects/Cinder/myApps/SVGLines/xcode    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/SVGLines-generated-files.hmap -I/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/SVGLines-own-target-headers.hmap -I/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/SVGLines-all-target-headers.hmap -iquote /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/SVGLines-project-headers.hmap -iquote../../../include -iquote../include -I/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/Debug/include -I../../../boost -I/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/DerivedSources/i386 -I/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/DerivedSources -F/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/Debug -include /var/folders/rt/08c21d8d3ml16cbt87_cfmj80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/SVGLines_Prefix-cmkbrgewejgkhocdwaxsrmbwffrs/SVGLines_Prefix.pch -MMD -MT dependencies -MF /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/Objects-normal/i386/SVGLinesApp.d --serialize-diagnostics /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/Objects-normal/i386/SVGLinesApp.dia -c /Users/antoine/projects/Cinder/myApps/SVGLines/src/SVGLinesApp.cpp -o /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/Objects-normal/i386/SVGLinesApp.o36"1B37B1CF-6F13-4B6B-9EFC-405D6F73FCFD-
+bAAAA8675-7984-498F-8DEA-DC6D6F6FD612
 
 CCompileC build/SVGLines.build/Debug/SVGLines.build/Objects-normal/i386/SVGLinesDelegate.o /Users/antoine/projects/Cinder/myApps/SVGLines/src/SVGLinesDelegate.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
-s419112822.943036
-e419112825.624749
+s419204018.838479
+e419204021.507686
 r1
 xCompileC
 xbuild/SVGLines.build/Debug/SVGLines.build/Objects-normal/i386/SVGLinesDelegate.o
@@ -6865,23 +6861,24 @@ d/Users/antoine/projects/Cinder/myApps/SVGLines/include/SVGLinesApp.h
 d/Users/antoine/projects/Cinder/include/cinder/app/AppBasic.h
 d/Users/antoine/projects/Cinder/include/cinder/app/AppCocoaView.h
 d/Users/antoine/projects/Cinder/include/cinder/app/AppNative.h
+d/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/SVGSurface.h
 d/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/DragablePoint.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Compile /Users/antoine/projects/Cinder/myApps/SVGLines/src/SVGLinesDelegate.mm230"CompileC build/SVGLines.build/Debug/SVGLines.build/Objects-normal/i386/SVGLinesDelegate.o /Users/antoine/projects/Cinder/myApps/SVGLines/src/SVGLinesDelegate.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler4a7df17627fbb841^41f19f7927fbb841^---0#0#1#-19%DVTDocumentLocation2@77"file:///Users/antoine/projects/Cinder/myApps/SVGLines/src/SVGLinesDelegate.mm0000000000000000^3260"CompileC build/SVGLines.build/Debug/SVGLines.build/Objects-normal/i386/SVGLinesDelegate.o /Users/antoine/projects/Cinder/myApps/SVGLines/src/SVGLinesDelegate.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/antoine/projects/Cinder/myApps/SVGLines/xcode    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/SVGLines-generated-files.hmap -I/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/SVGLines-own-target-headers.hmap -I/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/SVGLines-all-target-headers.hmap -iquote /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/SVGLines-project-headers.hmap -iquote../../../include -iquote../include -I/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/Debug/include -I../../../boost -I/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/DerivedSources/i386 -I/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/DerivedSources -F/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/Debug -include /var/folders/rt/08c21d8d3ml16cbt87_cfmj80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/SVGLines_Prefix-fkntljneoxhfkyamgdqqjqaekrri/SVGLines_Prefix.pch -MMD -MT dependencies -MF /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/Objects-normal/i386/SVGLinesDelegate.d --serialize-diagnostics /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/Objects-normal/i386/SVGLinesDelegate.dia -c /Users/antoine/projects/Cinder/myApps/SVGLines/src/SVGLinesDelegate.mm -o /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/Objects-normal/i386/SVGLinesDelegate.o36"921FAED0-2784-436D-86F2-0AA18C694341-
-b6B22664C-9614-4BDC-8D79-68573E07BC67
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Compile /Users/antoine/projects/Cinder/myApps/SVGLines/src/SVGLinesDelegate.mm230"CompileC build/SVGLines.build/Debug/SVGLines.build/Objects-normal/i386/SVGLinesDelegate.o /Users/antoine/projects/Cinder/myApps/SVGLines/src/SVGLinesDelegate.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compilere1b6d6b28bfcb841^33fa81b58bfcb841^---0#0#1#-19%DVTDocumentLocation2@77"file:///Users/antoine/projects/Cinder/myApps/SVGLines/src/SVGLinesDelegate.mm0000000000000000^3260"CompileC build/SVGLines.build/Debug/SVGLines.build/Objects-normal/i386/SVGLinesDelegate.o /Users/antoine/projects/Cinder/myApps/SVGLines/src/SVGLinesDelegate.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/antoine/projects/Cinder/myApps/SVGLines/xcode    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/SVGLines-generated-files.hmap -I/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/SVGLines-own-target-headers.hmap -I/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/SVGLines-all-target-headers.hmap -iquote /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/SVGLines-project-headers.hmap -iquote../../../include -iquote../include -I/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/Debug/include -I../../../boost -I/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/DerivedSources/i386 -I/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/DerivedSources -F/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/Debug -include /var/folders/rt/08c21d8d3ml16cbt87_cfmj80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/SVGLines_Prefix-avlaeqwaztqcoibimwklalmosptt/SVGLines_Prefix.pch -MMD -MT dependencies -MF /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/Objects-normal/i386/SVGLinesDelegate.d --serialize-diagnostics /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/Objects-normal/i386/SVGLinesDelegate.dia -c /Users/antoine/projects/Cinder/myApps/SVGLines/src/SVGLinesDelegate.mm -o /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/Objects-normal/i386/SVGLinesDelegate.o36"CC311B89-6525-4A70-8A52-8536B18AB1EB-
+bBFAEBDA0-ED4F-40B7-962A-3B3F5BE03F7C
 
-CCompileC build/SVGLines.build/Debug/SVGLines.build/Objects-normal/i386/Surface.o /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/Surface.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s419112822.943521
-e419112825.916472
+CCompileC build/SVGLines.build/Debug/SVGLines.build/Objects-normal/i386/SVGSurface.o /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/SVGSurface.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s419204828.828003
+e419204831.163359
 r1
 xCompileC
-xbuild/SVGLines.build/Debug/SVGLines.build/Objects-normal/i386/Surface.o
-x/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/Surface.cpp
+xbuild/SVGLines.build/Debug/SVGLines.build/Objects-normal/i386/SVGSurface.o
+x/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/SVGSurface.cpp
 xnormal
 xi386
 xc++
 xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/Surface.cpp
-d/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/Surface.h
+d/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/SVGSurface.cpp
+d/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/SVGSurface.h
 d/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/DragablePoint.h
 d/Users/antoine/projects/Cinder/include/cinder/app/AppNative.h
 d/Users/antoine/projects/Cinder/include/cinder/Cinder.h
@@ -7675,12 +7672,12 @@ d/Users/antoine/projects/Cinder/include/cinder/Thread.h
 d/Users/antoine/projects/Cinder/include/cinder/cocoa/CinderCocoa.h
 d/Users/antoine/projects/Cinder/include/cinder/ImageIo.h
 d/Users/antoine/projects/Cinder/include/cinder/DataTarget.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Compile /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/Surface.cpp152"CompileC build/SVGLines.build/Debug/SVGLines.build/Objects-normal/i386/Surface.o Surface.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler05a4f17627fbb841^e49eea7927fbb841^---0#0#1#-19%DVTDocumentLocation2@71"file:///Users/antoine/projects/Cinder/myApps/SVGLines/xcode/Surface.cpp0000000000000000^2946"CompileC build/SVGLines.build/Debug/SVGLines.build/Objects-normal/i386/Surface.o Surface.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/antoine/projects/Cinder/myApps/SVGLines/xcode    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/SVGLines-generated-files.hmap -I/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/SVGLines-own-target-headers.hmap -I/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/SVGLines-all-target-headers.hmap -iquote /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/SVGLines-project-headers.hmap -iquote../../../include -iquote../include -I/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/Debug/include -I../../../boost -I/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/DerivedSources/i386 -I/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/DerivedSources -F/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/Debug -include /var/folders/rt/08c21d8d3ml16cbt87_cfmj80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/SVGLines_Prefix-ctjjrmmkxfjiahdgjbbfawgtmvly/SVGLines_Prefix.pch -MMD -MT dependencies -MF /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/Objects-normal/i386/Surface.d --serialize-diagnostics /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/Objects-normal/i386/Surface.dia -c /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/Surface.cpp -o /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/Objects-normal/i386/Surface.o36"92A05477-3492-496A-893F-F2C7A973C13C-
-b6B22664C-9614-4BDC-8D79-68573E07BC67
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Compile /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/SVGSurface.cpp158"CompileC build/SVGLines.build/Debug/SVGLines.build/Objects-normal/i386/SVGSurface.o SVGSurface.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler7408d4dc8efcb841^e1d229df8efcb841^---0#0#1#-19%DVTDocumentLocation2@74"file:///Users/antoine/projects/Cinder/myApps/SVGLines/xcode/SVGSurface.cpp0000000000000000^2964"CompileC build/SVGLines.build/Debug/SVGLines.build/Objects-normal/i386/SVGSurface.o SVGSurface.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/antoine/projects/Cinder/myApps/SVGLines/xcode    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/SVGLines-generated-files.hmap -I/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/SVGLines-own-target-headers.hmap -I/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/SVGLines-all-target-headers.hmap -iquote /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/SVGLines-project-headers.hmap -iquote../../../include -iquote../include -I/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/Debug/include -I../../../boost -I/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/DerivedSources/i386 -I/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/DerivedSources -F/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/Debug -include /var/folders/rt/08c21d8d3ml16cbt87_cfmj80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/SVGLines_Prefix-cmkbrgewejgkhocdwaxsrmbwffrs/SVGLines_Prefix.pch -MMD -MT dependencies -MF /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/Objects-normal/i386/SVGSurface.d --serialize-diagnostics /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/Objects-normal/i386/SVGSurface.dia -c /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/SVGSurface.cpp -o /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/Objects-normal/i386/SVGSurface.o36"272B7439-1B59-4257-8736-1DEBD7C84531-
+b6D280890-D157-4AAA-B903-FAF90A9794F6
 
 CCompileC build/SVGLines.build/Debug/SVGLines.build/Objects-normal/i386/main.o /Users/antoine/projects/Cinder/myApps/SVGLines/src/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s419112822.944070
-e419112822.968133
+s419203624.171729
+e419203624.191741
 r1
 xCompileC
 xbuild/SVGLines.build/Debug/SVGLines.build/Objects-normal/i386/main.o
@@ -7690,44 +7687,43 @@ xi386
 xobjective-c
 xcom.apple.compilers.llvm.clang.1_0.compiler
 d/Users/antoine/projects/Cinder/myApps/SVGLines/src/main.m
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Compile /Users/antoine/projects/Cinder/myApps/SVGLines/src/main.m203"CompileC build/SVGLines.build/Debug/SVGLines.build/Objects-normal/i386/main.o /Users/antoine/projects/Cinder/myApps/SVGLines/src/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler27bff17627fbb841^38d8f77627fbb841^---0#0#1#-19%DVTDocumentLocation2@64"file:///Users/antoine/projects/Cinder/myApps/SVGLines/src/main.m0000000000000000^3029"CompileC build/SVGLines.build/Debug/SVGLines.build/Objects-normal/i386/main.o /Users/antoine/projects/Cinder/myApps/SVGLines/src/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/antoine/projects/Cinder/myApps/SVGLines/xcode    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-sign-conversion -iquote /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/SVGLines-generated-files.hmap -I/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/SVGLines-own-target-headers.hmap -I/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/SVGLines-all-target-headers.hmap -iquote /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/SVGLines-project-headers.hmap -iquote../../../include -iquote../include -I/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/Debug/include -I../../../boost -I/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/DerivedSources/i386 -I/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/DerivedSources -F/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/Debug -include /var/folders/rt/08c21d8d3ml16cbt87_cfmj80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/SVGLines_Prefix-cocjxrhpnwctgsgxqjxfyxpdvoth/SVGLines_Prefix.pch -MMD -MT dependencies -MF /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/Objects-normal/i386/main.dia -c /Users/antoine/projects/Cinder/myApps/SVGLines/src/main.m -o /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/Objects-normal/i386/main.o36"EEA8664F-B2D8-475A-9491-2E3C1CFDD105-
-b6B22664C-9614-4BDC-8D79-68573E07BC67
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Compile /Users/antoine/projects/Cinder/myApps/SVGLines/src/main.m203"CompileC build/SVGLines.build/Debug/SVGLines.build/Objects-normal/i386/main.o /Users/antoine/projects/Cinder/myApps/SVGLines/src/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler130b2c288afcb841^661631288afcb841^---0#0#1#-19%DVTDocumentLocation2@64"file:///Users/antoine/projects/Cinder/myApps/SVGLines/src/main.m0000000000000000^3029"CompileC build/SVGLines.build/Debug/SVGLines.build/Objects-normal/i386/main.o /Users/antoine/projects/Cinder/myApps/SVGLines/src/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/antoine/projects/Cinder/myApps/SVGLines/xcode    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.9 -g -Wno-sign-conversion -iquote /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/SVGLines-generated-files.hmap -I/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/SVGLines-own-target-headers.hmap -I/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/SVGLines-all-target-headers.hmap -iquote /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/SVGLines-project-headers.hmap -iquote../../../include -iquote../include -I/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/Debug/include -I../../../boost -I/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/DerivedSources/i386 -I/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/DerivedSources -F/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/Debug -include /var/folders/rt/08c21d8d3ml16cbt87_cfmj80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/SVGLines_Prefix-bstrlsgfrmupxhdbjztzpvaomqhc/SVGLines_Prefix.pch -MMD -MT dependencies -MF /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/Objects-normal/i386/main.dia -c /Users/antoine/projects/Cinder/myApps/SVGLines/src/main.m -o /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/Objects-normal/i386/main.o36"1059F4A0-4A56-417B-B8DD-5D61A84FAA6B-
+b913EB480-F96D-4D12-B3E8-B370E43D5A46
 
 CCompileXIB /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/en.lproj/MainMenu.xib
-s419112822.164110
-e419112822.249692
+s419203622.240866
+e419203623.444134
 r1
 xCompileXIB
 x/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/en.lproj/MainMenu.xib
 o/* com.apple.ibtool.document.notices */
 o/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/en.lproj/MainMenu.xib:536: note: View is clipping its content [13]
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compiling /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/en.lproj/MainMenu.xib32"CompileXIB en.lproj/MainMenu.xib1c0b2a7627fbb841^c8ed3f7627fbb841^-155"/* com.apple.ibtool.document.notices *//Users/antoine/projects/Cinder/myApps/SVGLines/xcode/en.lproj/MainMenu.xib:536: note: View is clipping its content1(21%IDEActivityLogMessage2@28"View is clipping its content-419112822#18446744073709551615#0#-0#-23%DVTTextDocumentLocation3@81"file:///Users/antoine/projects/Cinder/myApps/SVGLines/xcode/en.lproj/MainMenu.xib0000000000000000^535#18446744073709551615#535#18446744073709551615#18446744073709551615#0#15"Clipped Content--0#0#1#-19%DVTDocumentLocation4@81"file:///Users/antoine/projects/Cinder/myApps/SVGLines/xcode/en.lproj/MainMenu.xib0000000000000000^539"CompileXIB en.lproj/MainMenu.xib    cd /Users/antoine/projects/Cinder/myApps/SVGLines/xcode    export XCODE_DEVELOPER_USR_PATH=/Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 10.7 --output-format human-readable-text --compile /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/Debug/SVGLines.app/Contents/Resources/MainMenu.nib /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/en.lproj/MainMenu.xib36"80EABFE8-2AB3-49DD-81F9-70006E30C32C-
-b6B22664C-9614-4BDC-8D79-68573E07BC67
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compiling /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/en.lproj/MainMenu.xib32"CompileXIB en.lproj/MainMenu.xibd0b33d268afcb841^4ab371278afcb841^-155"/* com.apple.ibtool.document.notices *//Users/antoine/projects/Cinder/myApps/SVGLines/xcode/en.lproj/MainMenu.xib:536: note: View is clipping its content1(21%IDEActivityLogMessage2@28"View is clipping its content-419203623#18446744073709551615#0#-0#-23%DVTTextDocumentLocation3@81"file:///Users/antoine/projects/Cinder/myApps/SVGLines/xcode/en.lproj/MainMenu.xib0000000000000000^535#18446744073709551615#535#18446744073709551615#18446744073709551615#0#15"Clipped Content--0#0#1#-19%DVTDocumentLocation4@81"file:///Users/antoine/projects/Cinder/myApps/SVGLines/xcode/en.lproj/MainMenu.xib0000000000000000^539"CompileXIB en.lproj/MainMenu.xib    cd /Users/antoine/projects/Cinder/myApps/SVGLines/xcode    export XCODE_DEVELOPER_USR_PATH=/Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 10.9 --output-format human-readable-text --compile /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/Debug/SVGLines.app/Contents/Resources/MainMenu.nib /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/en.lproj/MainMenu.xib36"EE849257-5D43-488B-9770-94965C2DF1FA-
+b913EB480-F96D-4D12-B3E8-B370E43D5A46
 
 CCpResource /Users/antoine/projects/Cinder/myApps/SVGLines/resources/CinderApp.icns build/Debug/SVGLines.app/Contents/Resources/CinderApp.icns
-s419112822.163999
-e419112822.169618
+s419203622.240749
+e419203622.245182
 r1
 xCpResource
 x/Users/antoine/projects/Cinder/myApps/SVGLines/resources/CinderApp.icns
 xbuild/Debug/SVGLines.app/Contents/Resources/CinderApp.icns
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Copy build/Debug/SVGLines.app/Contents/Resources/CinderApp.icns141"CpResource /Users/antoine/projects/Cinder/myApps/SVGLines/resources/CinderApp.icns build/Debug/SVGLines.app/Contents/Resources/CinderApp.icns60032a7627fbb841^ad6c2b7627fbb841^---0#0#1#-19%DVTDocumentLocation2@118"file:///Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/Debug/SVGLines.app/Contents/Resources/CinderApp.icns00346c99dfffdf42^483"CpResource /Users/antoine/projects/Cinder/myApps/SVGLines/resources/CinderApp.icns build/Debug/SVGLines.app/Contents/Resources/CinderApp.icns    cd /Users/antoine/projects/Cinder/myApps/SVGLines/xcode    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/antoine/projects/Cinder/myApps/SVGLines/resources/CinderApp.icns /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/Debug/SVGLines.app/Contents/Resources36"C9965229-03B4-421B-AB74-D11717F600B2-
-b6B22664C-9614-4BDC-8D79-68573E07BC67
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Copy build/Debug/SVGLines.app/Contents/Resources/CinderApp.icns141"CpResource /Users/antoine/projects/Cinder/myApps/SVGLines/resources/CinderApp.icns build/Debug/SVGLines.app/Contents/Resources/CinderApp.icns19ab3d268afcb841^e3c53e268afcb841^---0#0#1#-19%DVTDocumentLocation2@118"file:///Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/Debug/SVGLines.app/Contents/Resources/CinderApp.icns00344c3ddfffdf42^483"CpResource /Users/antoine/projects/Cinder/myApps/SVGLines/resources/CinderApp.icns build/Debug/SVGLines.app/Contents/Resources/CinderApp.icns    cd /Users/antoine/projects/Cinder/myApps/SVGLines/xcode    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/antoine/projects/Cinder/myApps/SVGLines/resources/CinderApp.icns /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/Debug/SVGLines.app/Contents/Resources36"F1439E87-D505-486B-AC17-FEBC5977170B-
+b913EB480-F96D-4D12-B3E8-B370E43D5A46
 
 CLd /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/Debug/SVGLines.app/Contents/MacOS/SVGLines normal i386
-s419112826.399126
-e419112827.319102
+s419204831.166127
+e419204831.656924
 r1
 xLd
 x/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/Debug/SVGLines.app/Contents/MacOS/SVGLines
 xnormal
 xi386
 d/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/Objects-normal/i386/SVGLines.LinkFileList
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/crt1.10.6.o
 d/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/Objects-normal/i386/SVGLinesApp.o
 d/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/Objects-normal/i386/SVGLinesDelegate.o
 d/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/Objects-normal/i386/DragablePoint.o
-d/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/Objects-normal/i386/Surface.o
+d/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/Objects-normal/i386/SVGSurface.o
 d/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/Objects-normal/i386/main.o
 d/Users/antoine/projects/Cinder/lib/libcinder_d.a
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Cocoa.framework/Cocoa
@@ -7746,6 +7742,7 @@ d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/
 d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.osx.a
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGLU.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGL.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcache.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcommonCrypto.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcompiler_rt.dylib
@@ -7775,16 +7772,15 @@ d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunc.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunwind.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libxpc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/AppKit.framework/AppKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreData.framework/CoreData
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vImage.framework/Versions/A/vImage
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/vecLib
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libvDSP.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/AppKit.framework/AppKit
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreData.framework/CoreData
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/ApplicationServices
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libvMisc.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libLAPACK.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libBLAS.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/ApplicationServices
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreText.framework/CoreText
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ImageIO.framework/ImageIO
@@ -7804,79 +7800,79 @@ d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/AE.framework/Versions/A/AE
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/LaunchServices.framework/Versions/A/LaunchServices
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/DictionaryServices.framework/Versions/A/DictionaryServices
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"Link /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/Debug/SVGLines.app/Contents/MacOS/SVGLines63"Ld build/Debug/SVGLines.app/Contents/MacOS/SVGLines normal i3860038667a27fbb841^07b3517b27fbb841^---0#0#1#--1210"Ld build/Debug/SVGLines.app/Contents/MacOS/SVGLines normal i386    cd /Users/antoine/projects/Cinder/myApps/SVGLines/xcode    export MACOSX_DEPLOYMENT_TARGET=10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/Debug -F/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/Debug -filelist /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/Objects-normal/i386/SVGLines.LinkFileList -mmacosx-version-min=10.7 -dead_strip ../../../lib/libcinder_d.a -stdlib=libc++ -fobjc-link-runtime -framework Cocoa -framework OpenGL -framework CoreVideo -framework QTKit -framework Accelerate -framework AudioToolbox -framework AudioUnit -framework CoreAudio -Xlinker -dependency_info -Xlinker /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/Objects-normal/i386/SVGLines_dependency_info.dat -o /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/Debug/SVGLines.app/Contents/MacOS/SVGLines36"7979577F-AB6E-457B-BAB6-B2F0BC4E5647-
-b6B22664C-9614-4BDC-8D79-68573E07BC67
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"Link /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/Debug/SVGLines.app/Contents/MacOS/SVGLines63"Ld build/Debug/SVGLines.app/Contents/MacOS/SVGLines normal i3867d932adf8efcb841^452ea8df8efcb841^---0#0#1#--1210"Ld build/Debug/SVGLines.app/Contents/MacOS/SVGLines normal i386    cd /Users/antoine/projects/Cinder/myApps/SVGLines/xcode    export MACOSX_DEPLOYMENT_TARGET=10.9    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/Debug -F/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/Debug -filelist /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/Objects-normal/i386/SVGLines.LinkFileList -mmacosx-version-min=10.9 -dead_strip ../../../lib/libcinder_d.a -stdlib=libc++ -fobjc-link-runtime -framework Cocoa -framework OpenGL -framework CoreVideo -framework QTKit -framework Accelerate -framework AudioToolbox -framework AudioUnit -framework CoreAudio -Xlinker -dependency_info -Xlinker /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/Objects-normal/i386/SVGLines_dependency_info.dat -o /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/Debug/SVGLines.app/Contents/MacOS/SVGLines36"BC7C8F0C-3250-4B41-8382-50FA70ED22C6-
+b6D280890-D157-4AAA-B903-FAF90A9794F6
 
 CProcessInfoPlistFile /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/Debug/SVGLines.app/Contents/Info.plist /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/Info.plist
-s419112822.161074
-e419112822.163689
+s419203622.238586
+e419203622.240426
 r1
 xProcessInfoPlistFile
 x/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/Debug/SVGLines.app/Contents/Info.plist
 x/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/Info.plist
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Process /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/Info.plist76"ProcessInfoPlistFile build/Debug/SVGLines.app/Contents/Info.plist Info.plistaf43297627fbb841^d5e8297627fbb841^---0#0#1#-19%DVTDocumentLocation2@70"file:///Users/antoine/projects/Cinder/myApps/SVGLines/xcode/Info.plist0000000000000000^476"ProcessInfoPlistFile build/Debug/SVGLines.app/Contents/Info.plist Info.plist    cd /Users/antoine/projects/Cinder/myApps/SVGLines/xcode    builtin-infoPlistUtility /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/Info.plist -genpkginfo /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/Debug/SVGLines.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/Debug/SVGLines.app/Contents/Info.plist36"C5312DB3-ED3D-4C41-B367-2B7DABD4F044-
-b6B22664C-9614-4BDC-8D79-68573E07BC67
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Process /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/Info.plist76"ProcessInfoPlistFile build/Debug/SVGLines.app/Contents/Info.plist Info.plist19203d268afcb841^548e3d268afcb841^---0#0#1#-19%DVTDocumentLocation2@70"file:///Users/antoine/projects/Cinder/myApps/SVGLines/xcode/Info.plist0000000000000000^476"ProcessInfoPlistFile build/Debug/SVGLines.app/Contents/Info.plist Info.plist    cd /Users/antoine/projects/Cinder/myApps/SVGLines/xcode    builtin-infoPlistUtility /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/Info.plist -genpkginfo /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/Debug/SVGLines.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/Debug/SVGLines.app/Contents/Info.plist36"331B4995-B018-4461-8041-D317EBCE8959-
+b913EB480-F96D-4D12-B3E8-B370E43D5A46
 
-CProcessPCH /Users/antoine/Library/Developer/Xcode/DerivedData/SVGLines-bytbqucsfdiiogdhdvhfsbjhldnh/Index/PrecompiledHeaders/SVGLines_Prefix-banggbbknpkfbafsychcfvqruvxe_ast/SVGLines_Prefix.pch.pch SVGLines_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+CProcessPCH /Users/antoine/Library/Developer/Xcode/DerivedData/SVGLines-bytbqucsfdiiogdhdvhfsbjhldnh/Index/PrecompiledHeaders/SVGLines_Prefix-hipxdmvpnchcqgfopvalqwhwkclq_ast/SVGLines_Prefix.pch.pch SVGLines_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
 r0
 
-CProcessPCH /var/folders/rt/08c21d8d3ml16cbt87_cfmj80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/SVGLines_Prefix-cocjxrhpnwctgsgxqjxfyxpdvoth/SVGLines_Prefix.pch.pch SVGLines_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s419112822.250947
-e419112822.769676
+CProcessPCH /var/folders/rt/08c21d8d3ml16cbt87_cfmj80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/SVGLines_Prefix-bstrlsgfrmupxhdbjztzpvaomqhc/SVGLines_Prefix.pch.pch SVGLines_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s419203623.445107
+e419203624.035610
 r1
 xProcessPCH
-x/var/folders/rt/08c21d8d3ml16cbt87_cfmj80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/SVGLines_Prefix-cocjxrhpnwctgsgxqjxfyxpdvoth/SVGLines_Prefix.pch.pch
+x/var/folders/rt/08c21d8d3ml16cbt87_cfmj80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/SVGLines_Prefix-bstrlsgfrmupxhdbjztzpvaomqhc/SVGLines_Prefix.pch.pch
 xSVGLines_Prefix.pch
 xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.llvm.clang.1_0.compiler
 d/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/SVGLines_Prefix.pch
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection30"Precompile SVGLines_Prefix.pch285"ProcessPCH /var/folders/rt/08c21d8d3ml16cbt87_cfmj80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/SVGLines_Prefix-cocjxrhpnwctgsgxqjxfyxpdvoth/SVGLines_Prefix.pch.pch SVGLines_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler3e5e407627fbb841^6c09c57627fbb841^---0#0#1#-19%DVTDocumentLocation2@79"file:///Users/antoine/projects/Cinder/myApps/SVGLines/xcode/SVGLines_Prefix.pch0000000000000000^3132"ProcessPCH /var/folders/rt/08c21d8d3ml16cbt87_cfmj80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/SVGLines_Prefix-cocjxrhpnwctgsgxqjxfyxpdvoth/SVGLines_Prefix.pch.pch SVGLines_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/antoine/projects/Cinder/myApps/SVGLines/xcode    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-sign-conversion -iquote /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/SVGLines-generated-files.hmap -I/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/SVGLines-own-target-headers.hmap -I/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/SVGLines-all-target-headers.hmap -iquote /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/SVGLines-project-headers.hmap -iquote../../../include -iquote../include -I/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/Debug/include -I../../../boost -I/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/DerivedSources/i386 -I/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/DerivedSources -F/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/Debug --serialize-diagnostics /var/folders/rt/08c21d8d3ml16cbt87_cfmj80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/SVGLines_Prefix-cocjxrhpnwctgsgxqjxfyxpdvoth/SVGLines_Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/rt/08c21d8d3ml16cbt87_cfmj80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/SVGLines_Prefix-cocjxrhpnwctgsgxqjxfyxpdvoth/SVGLines_Prefix.pch.d -c /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/SVGLines_Prefix.pch -o /var/folders/rt/08c21d8d3ml16cbt87_cfmj80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/SVGLines_Prefix-cocjxrhpnwctgsgxqjxfyxpdvoth/SVGLines_Prefix.pch.pch36"50C8C18C-0AD5-4F71-8318-CE3A8CFF6B75-
-b6B22664C-9614-4BDC-8D79-68573E07BC67
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection30"Precompile SVGLines_Prefix.pch285"ProcessPCH /var/folders/rt/08c21d8d3ml16cbt87_cfmj80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/SVGLines_Prefix-bstrlsgfrmupxhdbjztzpvaomqhc/SVGLines_Prefix.pch.pch SVGLines_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilercd0172278afcb841^0c1f09288afcb841^---0#0#1#-19%DVTDocumentLocation2@79"file:///Users/antoine/projects/Cinder/myApps/SVGLines/xcode/SVGLines_Prefix.pch0000000000000000^3132"ProcessPCH /var/folders/rt/08c21d8d3ml16cbt87_cfmj80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/SVGLines_Prefix-bstrlsgfrmupxhdbjztzpvaomqhc/SVGLines_Prefix.pch.pch SVGLines_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/antoine/projects/Cinder/myApps/SVGLines/xcode    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.9 -g -Wno-sign-conversion -iquote /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/SVGLines-generated-files.hmap -I/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/SVGLines-own-target-headers.hmap -I/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/SVGLines-all-target-headers.hmap -iquote /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/SVGLines-project-headers.hmap -iquote../../../include -iquote../include -I/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/Debug/include -I../../../boost -I/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/DerivedSources/i386 -I/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/DerivedSources -F/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/Debug --serialize-diagnostics /var/folders/rt/08c21d8d3ml16cbt87_cfmj80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/SVGLines_Prefix-bstrlsgfrmupxhdbjztzpvaomqhc/SVGLines_Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/rt/08c21d8d3ml16cbt87_cfmj80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/SVGLines_Prefix-bstrlsgfrmupxhdbjztzpvaomqhc/SVGLines_Prefix.pch.d -c /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/SVGLines_Prefix.pch -o /var/folders/rt/08c21d8d3ml16cbt87_cfmj80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/SVGLines_Prefix-bstrlsgfrmupxhdbjztzpvaomqhc/SVGLines_Prefix.pch.pch36"2D85BF80-2EB5-4037-95E1-5DF4946B7CA7-
+b913EB480-F96D-4D12-B3E8-B370E43D5A46
 
-CProcessPCH++ /Users/antoine/Library/Developer/Xcode/DerivedData/SVGLines-bytbqucsfdiiogdhdvhfsbjhldnh/Index/PrecompiledHeaders/SVGLines_Prefix-apygjnouguwjtqewkysmpdpjsuwp_ast/SVGLines_Prefix.pch.pch SVGLines_Prefix.pch normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.astbuilder
+CProcessPCH++ /Users/antoine/Library/Developer/Xcode/DerivedData/SVGLines-bytbqucsfdiiogdhdvhfsbjhldnh/Index/PrecompiledHeaders/SVGLines_Prefix-auwlelxhiofovualvptlpcdrcedm_ast/SVGLines_Prefix.pch.pch SVGLines_Prefix.pch normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.astbuilder
 r0
 
-CProcessPCH++ /Users/antoine/Library/Developer/Xcode/DerivedData/SVGLines-bytbqucsfdiiogdhdvhfsbjhldnh/Index/PrecompiledHeaders/SVGLines_Prefix-dsyjuqwkcdaflbawgbvyfmouzvsi_ast/SVGLines_Prefix.pch.pch SVGLines_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.astbuilder
+CProcessPCH++ /Users/antoine/Library/Developer/Xcode/DerivedData/SVGLines-bytbqucsfdiiogdhdvhfsbjhldnh/Index/PrecompiledHeaders/SVGLines_Prefix-dlfnfnndrrjpslehcpmkvcvyofcd_ast/SVGLines_Prefix.pch.pch SVGLines_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.astbuilder
 r0
 
-CProcessPCH++ /var/folders/rt/08c21d8d3ml16cbt87_cfmj80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/SVGLines_Prefix-ctjjrmmkxfjiahdgjbbfawgtmvly/SVGLines_Prefix.pch.pch SVGLines_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s419112822.250349
-e419112822.264841
+CProcessPCH++ /var/folders/rt/08c21d8d3ml16cbt87_cfmj80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/SVGLines_Prefix-avlaeqwaztqcoibimwklalmosptt/SVGLines_Prefix.pch.pch SVGLines_Prefix.pch normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s419203623.444861
+e419203624.170098
 r1
 xProcessPCH++
-x/var/folders/rt/08c21d8d3ml16cbt87_cfmj80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/SVGLines_Prefix-ctjjrmmkxfjiahdgjbbfawgtmvly/SVGLines_Prefix.pch.pch
-xSVGLines_Prefix.pch
-xnormal
-xi386
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/SVGLines_Prefix.pch
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection30"Precompile SVGLines_Prefix.pch279"ProcessPCH++ /var/folders/rt/08c21d8d3ml16cbt87_cfmj80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/SVGLines_Prefix-ctjjrmmkxfjiahdgjbbfawgtmvly/SVGLines_Prefix.pch.pch SVGLines_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler8527407627fbb841^3bc8437627fbb841^---0#0#1#-19%DVTDocumentLocation2@79"file:///Users/antoine/projects/Cinder/myApps/SVGLines/xcode/SVGLines_Prefix.pch0000000000000000^3078"ProcessPCH++ /var/folders/rt/08c21d8d3ml16cbt87_cfmj80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/SVGLines_Prefix-ctjjrmmkxfjiahdgjbbfawgtmvly/SVGLines_Prefix.pch.pch SVGLines_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/antoine/projects/Cinder/myApps/SVGLines/xcode    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++-header -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/SVGLines-generated-files.hmap -I/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/SVGLines-own-target-headers.hmap -I/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/SVGLines-all-target-headers.hmap -iquote /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/SVGLines-project-headers.hmap -iquote../../../include -iquote../include -I/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/Debug/include -I../../../boost -I/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/DerivedSources/i386 -I/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/DerivedSources -F/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/Debug --serialize-diagnostics /var/folders/rt/08c21d8d3ml16cbt87_cfmj80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/SVGLines_Prefix-ctjjrmmkxfjiahdgjbbfawgtmvly/SVGLines_Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/rt/08c21d8d3ml16cbt87_cfmj80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/SVGLines_Prefix-ctjjrmmkxfjiahdgjbbfawgtmvly/SVGLines_Prefix.pch.d -c /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/SVGLines_Prefix.pch -o /var/folders/rt/08c21d8d3ml16cbt87_cfmj80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/SVGLines_Prefix-ctjjrmmkxfjiahdgjbbfawgtmvly/SVGLines_Prefix.pch.pch36"BB0E4DA3-A277-497F-B91A-01BC71E541EF-
-b6B22664C-9614-4BDC-8D79-68573E07BC67
-
-CProcessPCH++ /var/folders/rt/08c21d8d3ml16cbt87_cfmj80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/SVGLines_Prefix-fkntljneoxhfkyamgdqqjqaekrri/SVGLines_Prefix.pch.pch SVGLines_Prefix.pch normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
-s419112822.250591
-e419112822.942217
-r1
-xProcessPCH++
-x/var/folders/rt/08c21d8d3ml16cbt87_cfmj80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/SVGLines_Prefix-fkntljneoxhfkyamgdqqjqaekrri/SVGLines_Prefix.pch.pch
+x/var/folders/rt/08c21d8d3ml16cbt87_cfmj80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/SVGLines_Prefix-avlaeqwaztqcoibimwklalmosptt/SVGLines_Prefix.pch.pch
 xSVGLines_Prefix.pch
 xnormal
 xi386
 xobjective-c++
 xcom.apple.compilers.llvm.clang.1_0.compiler
 d/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/SVGLines_Prefix.pch
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection30"Precompile SVGLines_Prefix.pch289"ProcessPCH++ /var/folders/rt/08c21d8d3ml16cbt87_cfmj80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/SVGLines_Prefix-fkntljneoxhfkyamgdqqjqaekrri/SVGLines_Prefix.pch.pch SVGLines_Prefix.pch normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler7a35407627fbb841^0d36f17627fbb841^---0#0#1#-19%DVTDocumentLocation2@79"file:///Users/antoine/projects/Cinder/myApps/SVGLines/xcode/SVGLines_Prefix.pch0000000000000000^3291"ProcessPCH++ /var/folders/rt/08c21d8d3ml16cbt87_cfmj80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/SVGLines_Prefix-fkntljneoxhfkyamgdqqjqaekrri/SVGLines_Prefix.pch.pch SVGLines_Prefix.pch normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/antoine/projects/Cinder/myApps/SVGLines/xcode    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++-header -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/SVGLines-generated-files.hmap -I/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/SVGLines-own-target-headers.hmap -I/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/SVGLines-all-target-headers.hmap -iquote /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/SVGLines-project-headers.hmap -iquote../../../include -iquote../include -I/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/Debug/include -I../../../boost -I/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/DerivedSources/i386 -I/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/DerivedSources -F/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/Debug --serialize-diagnostics /var/folders/rt/08c21d8d3ml16cbt87_cfmj80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/SVGLines_Prefix-fkntljneoxhfkyamgdqqjqaekrri/SVGLines_Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/rt/08c21d8d3ml16cbt87_cfmj80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/SVGLines_Prefix-fkntljneoxhfkyamgdqqjqaekrri/SVGLines_Prefix.pch.d -c /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/SVGLines_Prefix.pch -o /var/folders/rt/08c21d8d3ml16cbt87_cfmj80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/SVGLines_Prefix-fkntljneoxhfkyamgdqqjqaekrri/SVGLines_Prefix.pch.pch36"351E5D41-1684-474A-8F98-C4177CE7DD30-
-b6B22664C-9614-4BDC-8D79-68573E07BC67
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection30"Precompile SVGLines_Prefix.pch289"ProcessPCH++ /var/folders/rt/08c21d8d3ml16cbt87_cfmj80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/SVGLines_Prefix-avlaeqwaztqcoibimwklalmosptt/SVGLines_Prefix.pch.pch SVGLines_Prefix.pch normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler9df171278afcb841^ac8b2b288afcb841^---0#0#1#-19%DVTDocumentLocation2@79"file:///Users/antoine/projects/Cinder/myApps/SVGLines/xcode/SVGLines_Prefix.pch0000000000000000^3291"ProcessPCH++ /var/folders/rt/08c21d8d3ml16cbt87_cfmj80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/SVGLines_Prefix-avlaeqwaztqcoibimwklalmosptt/SVGLines_Prefix.pch.pch SVGLines_Prefix.pch normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/antoine/projects/Cinder/myApps/SVGLines/xcode    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++-header -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/SVGLines-generated-files.hmap -I/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/SVGLines-own-target-headers.hmap -I/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/SVGLines-all-target-headers.hmap -iquote /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/SVGLines-project-headers.hmap -iquote../../../include -iquote../include -I/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/Debug/include -I../../../boost -I/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/DerivedSources/i386 -I/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/DerivedSources -F/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/Debug --serialize-diagnostics /var/folders/rt/08c21d8d3ml16cbt87_cfmj80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/SVGLines_Prefix-avlaeqwaztqcoibimwklalmosptt/SVGLines_Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/rt/08c21d8d3ml16cbt87_cfmj80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/SVGLines_Prefix-avlaeqwaztqcoibimwklalmosptt/SVGLines_Prefix.pch.d -c /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/SVGLines_Prefix.pch -o /var/folders/rt/08c21d8d3ml16cbt87_cfmj80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/SVGLines_Prefix-avlaeqwaztqcoibimwklalmosptt/SVGLines_Prefix.pch.pch36"0E66D907-5C2F-4C0D-B1FD-68BCFE45DDEB-
+b913EB480-F96D-4D12-B3E8-B370E43D5A46
+
+CProcessPCH++ /var/folders/rt/08c21d8d3ml16cbt87_cfmj80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/SVGLines_Prefix-cmkbrgewejgkhocdwaxsrmbwffrs/SVGLines_Prefix.pch.pch SVGLines_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s419203623.444634
+e419203623.464197
+r1
+xProcessPCH++
+x/var/folders/rt/08c21d8d3ml16cbt87_cfmj80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/SVGLines_Prefix-cmkbrgewejgkhocdwaxsrmbwffrs/SVGLines_Prefix.pch.pch
+xSVGLines_Prefix.pch
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/SVGLines_Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection30"Precompile SVGLines_Prefix.pch279"ProcessPCH++ /var/folders/rt/08c21d8d3ml16cbt87_cfmj80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/SVGLines_Prefix-cmkbrgewejgkhocdwaxsrmbwffrs/SVGLines_Prefix.pch.pch SVGLines_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler58e271278afcb841^99d676278afcb841^---0#0#1#-19%DVTDocumentLocation2@79"file:///Users/antoine/projects/Cinder/myApps/SVGLines/xcode/SVGLines_Prefix.pch0000000000000000^3078"ProcessPCH++ /var/folders/rt/08c21d8d3ml16cbt87_cfmj80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/SVGLines_Prefix-cmkbrgewejgkhocdwaxsrmbwffrs/SVGLines_Prefix.pch.pch SVGLines_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/antoine/projects/Cinder/myApps/SVGLines/xcode    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++-header -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/SVGLines-generated-files.hmap -I/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/SVGLines-own-target-headers.hmap -I/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/SVGLines-all-target-headers.hmap -iquote /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/SVGLines-project-headers.hmap -iquote../../../include -iquote../include -I/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/Debug/include -I../../../boost -I/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/DerivedSources/i386 -I/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/SVGLines.build/Debug/SVGLines.build/DerivedSources -F/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/Debug --serialize-diagnostics /var/folders/rt/08c21d8d3ml16cbt87_cfmj80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/SVGLines_Prefix-cmkbrgewejgkhocdwaxsrmbwffrs/SVGLines_Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/rt/08c21d8d3ml16cbt87_cfmj80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/SVGLines_Prefix-cmkbrgewejgkhocdwaxsrmbwffrs/SVGLines_Prefix.pch.d -c /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/SVGLines_Prefix.pch -o /var/folders/rt/08c21d8d3ml16cbt87_cfmj80000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/SVGLines_Prefix-cmkbrgewejgkhocdwaxsrmbwffrs/SVGLines_Prefix.pch.pch36"949D61C1-37E6-410A-9009-DD9F2F045B5F-
+b913EB480-F96D-4D12-B3E8-B370E43D5A46
 
 CTouch /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/Debug/SVGLines.app
-s419112827.320053
-e419112827.329316
+s419204831.657697
+e419204831.661889
 r1
 xTouch
 x/Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/Debug/SVGLines.app
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Touch /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/Debug/SVGLines.app30"Touch build/Debug/SVGLines.appd7f7517b27fbb841^0550547b27fbb841^---0#0#1#--191"Touch build/Debug/SVGLines.app    cd /Users/antoine/projects/Cinder/myApps/SVGLines/xcode    /usr/bin/touch -c /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/Debug/SVGLines.app36"B9872359-CA59-4544-A5F4-83AA10EAD450-
-b6B22664C-9614-4BDC-8D79-68573E07BC67
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Touch /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/Debug/SVGLines.app30"Touch build/Debug/SVGLines.appe466a8df8efcb841^3273a9df8efcb841^---0#0#1#--191"Touch build/Debug/SVGLines.app    cd /Users/antoine/projects/Cinder/myApps/SVGLines/xcode    /usr/bin/touch -c /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/build/Debug/SVGLines.app36"DE41B352-3BC2-48A7-8F43-EAB3AE1A77BA-
+b6D280890-D157-4AAA-B903-FAF90A9794F6
 

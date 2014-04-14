@@ -757,4 +757,5 @@ dependencies: \
   ../../../include/cinder/ImageIo.h ../../../include/cinder/DataTarget.h \
   ../../../include/cinder/app/AppCocoaView.h \
   ../../../include/cinder/app/AppNative.h \
+  /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/SVGSurface.h \
   /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/DragablePoint.h

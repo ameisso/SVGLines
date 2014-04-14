@@ -15,15 +15,14 @@ void SVGLinesApp::prepareSettings( Settings *settings )
 }
 //--------------------------------------------------------------
 void SVGLinesApp::setup(){
-    saveFile=false;
-    curveMode=false;
     endOfLine=false;
     isAppFullscrenn=false;
     aPointIsDragged=false;
     crossCursor=true;
-    firstClickPerformed=false;
+    firstClickPerformed=true;
     doubleClickDuration=0.3;
     pointerRadius=3;
+    surfaces.push_back(new SVGSurface());
 }
 
 //--------------------------------------------------------------
@@ -37,9 +36,9 @@ void SVGLinesApp::draw(){
     else
         gl::begin(GL_LINE_STRIP);
 
-    for( list<DragablePoint*>::iterator it = surface.begin(); it != surface.end(); ++it )
+    for( list<SVGSurface*>::iterator it = surfaces.begin(); it != surfaces.end(); ++it )
     {
-        cinder::gl::vertex((*it)->posX(),(*it)->posY());
+        (*it)->draw();
     }
     if(aPointIsDragged==false) {
         cinder::gl::vertex(mousePos.x, mousePos.y);
@@ -47,11 +46,7 @@ void SVGLinesApp::draw(){
     if(endOfLine)
     {
         endOfLine=false;
-        //remove the last point created by the double click
-        surface.remove(surface.back());
-        list<DragablePoint*>::iterator firstIt = surface.begin();
-        cinder::gl::vertex((*firstIt)->posX(),(*firstIt)->posY());
-        surface.push_back(new DragablePoint((*firstIt)->pos()));
+        surfaces.back()->endOfSurface();
     }
     gl::end();
 
@@ -72,13 +67,15 @@ void SVGLinesApp::draw(){
     
     //circles arround points
     gl::color(ColorA(lineColor.r, lineColor.g, lineColor.b, 1.f));
-    for( list<DragablePoint*>::iterator it = surface.begin(); it != surface.end(); ++it )
+    for( list<SVGSurface*>::iterator it = surfaces.begin(); it != surfaces.end(); ++it )
     {
-        
-        if ((*it)->getBOver())
-            cinder::gl::drawStrokedCircle((*it)->pos(),(*it)->getRadius());
+        auto bOverTuple=(*it)->getBOver();
+        Vec2i position=std::get<1>(bOverTuple);
+        int radius=std::get<2>(bOverTuple);
+        if (std::get<0>(bOverTuple))
+            cinder::gl::drawStrokedCircle(position,radius);
         else
-            cinder::gl::drawSolidCircle((*it)->pos(),(*it)->getRadius());
+            cinder::gl::drawSolidCircle(position,radius);
     }
 
 }
@@ -93,7 +90,13 @@ void SVGLinesApp::keyDown( KeyEvent event )
 
     if(key=='c')
     {
-        surface.clear();
+        for( list<SVGSurface*>::iterator it = surfaces.begin(); it != surfaces.end(); ++it )
+        {
+            (*it)->clearPoints();
+        }
+        
+        surfaces.clear();
+        surfaces.push_back(new SVGSurface());
     }
     if(key=='r')
     {
@@ -119,39 +122,19 @@ void SVGLinesApp::keyUp(KeyEvent event )
 void SVGLinesApp::mouseMove( MouseEvent event ) {
     //store mouse position :
     mousePos=event.getPos();
-    for( list<DragablePoint*>::iterator it = surface.begin(); it != surface.end(); ++it )
+    for( list<SVGSurface*>::iterator it = surfaces.begin(); it != surfaces.end(); ++it )
     {
-		float diffx = mousePos.x - (*it)->posX();
-		float diffy = mousePos.y - (*it)->posY();
-		float dist = sqrt(diffx*diffx + diffy*diffy);
-		if (dist < (*it)->getRadius()){
-			(*it)->setBOver(true);
-            (*it)->setRadius(6);
-		} else {
-			(*it)->setBOver (false);
-            (*it)->setRadius(4);
-		}
+        (*it)->mouseMove(mousePos);
+	
 	}
 }
 
 //--------------------------------------------------------------
 void SVGLinesApp::mouseDrag( MouseEvent event ) {
-    
-    for( list<DragablePoint*>::iterator it = surface.begin(); it != surface.end(); ++it )
+    for( list<SVGSurface*>::iterator it = surfaces.begin(); it != surfaces.end(); ++it )
     {
-		if ((*it)->getBBeingDragged() == true){
-            (*it)->setPos(event.getPos());
-            if ((*it)==surface.front()) {
-                surface.back()->setPos(event.getPos());
-            }
-            aPointIsDragged=true;
-            break;
-		}
-        else
-        {
-            aPointIsDragged=false;
-        }
-	}
+		(*it)->mouseDrag(mousePos);
+    }
 }
 
 //--------------------------------------------------------------
@@ -166,21 +149,13 @@ void SVGLinesApp::mouseDown( MouseEvent event ) {
     {
         firstClickPerformed = false;
         bool newPoint=true;
-        for( list<DragablePoint*>::iterator it = surface.begin(); it != surface.end(); ++it )
+        for( list<SVGSurface*>::iterator it = surfaces.begin(); it != surfaces.end(); ++it )
         {
-            float diffx = mousePos.x - (*it)->posX();
-            float diffy = mousePos.y - (*it)->posY();
-            float dist = sqrt(diffx*diffx + diffy*diffy);
-            if (dist < (*it)->getRadius()){
-                (*it)->setBBeingDragged(true);
-                newPoint=false;
-            } else {
-                (*it)->setBBeingDragged(false);
-            }
+           newPoint=(*it)->checkDragged(mousePos);
         }
         if(newPoint)
         {
-            surface.push_back(new DragablePoint(mousePos));
+            surfaces.back()->addPoint(mousePos);
         }
     }
     firstClickTime = app::getElapsedSeconds();
@@ -204,12 +179,11 @@ void SVGLinesApp::renderSVG()
 
     oStream << "<!-- Created with SVGLines (ameisso.fr) -->\n";
     oStream << "<svg width=\""<<fullScreenSize.x<<"\" height=\""<<fullScreenSize.y<<"\">\n";
-    oStream<<"<path d=\"M"<<surface.front()->posX()<<" "<<surface.front()->posY()<<" ";
-    for( list<DragablePoint*>::iterator it = surface.begin(); it != surface.end(); ++it )
+    for( list<SVGSurface*>::iterator it = surfaces.begin(); it != surfaces.end(); ++it )
     {
-        oStream<<"L"<<(*it)->posX()<<" "<<(*it)->posY()<<" ";
+        oStream<<(*it)->renderSvg();
     }
-    oStream<<"Z\" />";
+    
     oStream << "</svg>";
     oStream.close();
 

@@ -1,6 +1,6 @@
 dependencies: \
-  /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/Surface.cpp \
-  /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/Surface.h \
+  /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/SVGSurface.cpp \
+  /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/SVGSurface.h \
   /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/DragablePoint.h \
   ../../../include/cinder/app/AppNative.h \
   ../../../include/cinder/Cinder.h ../../../boost/boost/version.hpp \

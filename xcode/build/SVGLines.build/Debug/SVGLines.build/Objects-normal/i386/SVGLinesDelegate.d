@@ -645,4 +645,5 @@ dependencies: \
   ../include/SVGLinesApp.h ../../../include/cinder/app/AppBasic.h \
   ../../../include/cinder/app/AppCocoaView.h \
   ../../../include/cinder/app/AppNative.h \
+  /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/SVGSurface.h \
   /Users/antoine/projects/Cinder/myApps/SVGLines/xcode/DragablePoint.h

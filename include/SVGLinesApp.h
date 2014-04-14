@@ -5,7 +5,10 @@
 #include "cinder/app/AppNative.h"
 #include "cinder/gl/gl.h"
 #include "cinder/App/App.h"
-#include "DragablePoint.h"
+
+
+#include "SVGSurface.h"
+
 #include <ctime>
 #include <fstream>
 #include <sstream>
@@ -14,6 +17,8 @@
 #include <list>
 #include "cinder/gl/gl.h"
 using std::list;
+
+
 
 using namespace ci;
 using namespace ci::app;
@@ -38,11 +43,9 @@ public:
     int                 pointerRadius;
     std::string         pathToExport;
 private:
-    bool isAppFullscrenn;
-    bool saveFile;
-    bool curveMode;
-    bool endOfLine;
-    bool capture;
+    bool                isAppFullscrenn;
+    bool                endOfLine;
+
     ci::Vec2i mousePos;//MousePosition
     
     ci::Vec2i fullScreenSize;
@@ -50,7 +53,7 @@ private:
 
 
     //Vertices
-    list<DragablePoint*> surface;
+    list<SVGSurface*> surfaces;
     
     //DoubleClick
     float firstClickTime;

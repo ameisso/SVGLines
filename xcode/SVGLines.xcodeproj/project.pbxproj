@@ -17,7 +17,7 @@
 		4E9F1E6FF81D477CA7E7BBCD /* SVGLinesDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = EE7C9A91ED4D4EE5B2315DAE /* SVGLinesDelegate.mm */; };
 		5323E6B20EAFCA74003A9687 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5323E6B10EAFCA74003A9687 /* CoreVideo.framework */; };
 		5323E6B60EAFCA7E003A9687 /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5323E6B50EAFCA7E003A9687 /* QTKit.framework */; };
-		71AECA1118FB1F3200BDF101 /* Surface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 71AECA0F18FB1F3200BDF101 /* Surface.cpp */; };
+		71AECA1118FB1F3200BDF101 /* SVGSurface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 71AECA0F18FB1F3200BDF101 /* SVGSurface.cpp */; };
 		71B3094218F9906700201C8E /* DragablePoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 71B3094018F9906700201C8E /* DragablePoint.cpp */; };
 		7F3F7DA6C10949F4976A5F54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4E3AD66AE1476C8858343D /* main.m */; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
@@ -41,8 +41,8 @@
 		3D565B71A15947EF963B004F /* SVGLinesDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SVGLinesDelegate.h; path = ../include/SVGLinesDelegate.h; sourceTree = "<group>"; };
 		5323E6B10EAFCA74003A9687 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = /System/Library/Frameworks/CoreVideo.framework; sourceTree = "<absolute>"; };
 		5323E6B50EAFCA7E003A9687 /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = /System/Library/Frameworks/QTKit.framework; sourceTree = "<absolute>"; };
-		71AECA0F18FB1F3200BDF101 /* Surface.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Surface.cpp; sourceTree = "<group>"; };
-		71AECA1018FB1F3200BDF101 /* Surface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Surface.h; sourceTree = "<group>"; };
+		71AECA0F18FB1F3200BDF101 /* SVGSurface.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SVGSurface.cpp; sourceTree = "<group>"; };
+		71AECA1018FB1F3200BDF101 /* SVGSurface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVGSurface.h; sourceTree = "<group>"; };
 		71B3094018F9906700201C8E /* DragablePoint.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DragablePoint.cpp; sourceTree = "<group>"; };
 		71B3094118F9906700201C8E /* DragablePoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DragablePoint.h; sourceTree = "<group>"; };
 		7DDF60D5040B4A16B9192B83 /* SVGLinesApp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SVGLinesApp.h; path = ../include/SVGLinesApp.h; sourceTree = "<group>"; };
@@ -81,7 +81,7 @@
 		080E96DDFE201D6D7F000001 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				71AECA0F18FB1F3200BDF101 /* Surface.cpp */,
+				71AECA0F18FB1F3200BDF101 /* SVGSurface.cpp */,
 				00EFD1CC8A0A4E87A21D8B16 /* SVGLinesApp.cpp */,
 				71B3094018F9906700201C8E /* DragablePoint.cpp */,
 				EE7C9A91ED4D4EE5B2315DAE /* SVGLinesDelegate.mm */,
@@ -138,8 +138,8 @@
 		29B97315FDCFA39411CA2CEA /* Headers */ = {
 			isa = PBXGroup;
 			children = (
+				71AECA1018FB1F3200BDF101 /* SVGSurface.h */,
 				7DDF60D5040B4A16B9192B83 /* SVGLinesApp.h */,
-				71AECA1018FB1F3200BDF101 /* Surface.h */,
 				3D565B71A15947EF963B004F /* SVGLinesDelegate.h */,
 				71B3094118F9906700201C8E /* DragablePoint.h */,
 				126E814097FA46479CFA7520 /* Resources.h */,
@@ -234,7 +234,7 @@
 				2C6EEB203A164BCBBDC30A95 /* SVGLinesApp.cpp in Sources */,
 				4E9F1E6FF81D477CA7E7BBCD /* SVGLinesDelegate.mm in Sources */,
 				71B3094218F9906700201C8E /* DragablePoint.cpp in Sources */,
-				71AECA1118FB1F3200BDF101 /* Surface.cpp in Sources */,
+				71AECA1118FB1F3200BDF101 /* SVGSurface.cpp in Sources */,
 				7F3F7DA6C10949F4976A5F54 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -301,7 +301,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "\"$(CINDER_PATH)/boost\"";
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				SDKROOT = macosx;
 				USER_HEADER_SEARCH_PATHS = "\"$(CINDER_PATH)/include\" ../include";
 			};
@@ -318,7 +318,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "\"$(CINDER_PATH)/boost\"";
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				SDKROOT = macosx;
 				USER_HEADER_SEARCH_PATHS = "\"$(CINDER_PATH)/include\" ../include";
 			};
